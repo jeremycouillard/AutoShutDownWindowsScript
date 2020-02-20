@@ -14,3 +14,9 @@ Save the .bat file anywhere and put a shortcut to it in the Windows 10 startup f
 Now your computer will only run that exe and shut off when you quit it. 
 If you want to change things just alt+tab out of the .exe, close the .bat file and remove the .exe and .bat from the startup folder. 
 
+## Turn this into a media player.
+Before the loop add, for example:
+"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe" --loop --fullscreen C:\Users\user\Downloads\bird.avi
+
+And change the exe to be vlc.exe
+
